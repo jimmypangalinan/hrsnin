@@ -126,5 +126,26 @@ button[type="google"] {
     background-color: #0056b3;
 } */
 
+#password {
+    width: 100%;
+    box-sizing: border-box;
+}
 
+.password-input {
+    position: relative;
+    display: inline-block;
+    /* background-color: #02ed5c; */
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password:hover {
+    color: #333;
+}
 
