@@ -149,3 +149,37 @@ button[type="google"] {
     color: #333;
 }
 
+
+/* teks hr */
+.or-divider {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or-divider::before {
+    left: 0;
+}
+
+.or-divider::after {
+    right: 0;
+}
+
+.or-text {
+    position: relative;
+    z-index: 1;
+    background-color: #f9f9f9;
+    padding: 0 10px;
+    font-size: small;
+}
